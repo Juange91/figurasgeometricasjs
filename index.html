@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+
+<button id="btchat" onclick="chatActive()" class="active">CHAT</button>
+<div id="chat" class="active">
+<h3>CHAT</h3>
+</div>  
+
+
+
+
+
+    <h1>Figuras geometricas</h1>
+    
+    <div id="fila">
+
+<div id="contbotones">
+        <h2>Botones</h2>
+        <button onclick="fcirculo()">Círculo</button>
+        <button onclick="frombo()">Rombo</button>
+        <button onclick="frectangulohorizontal()">Rectangulo<br>Horizontal</button>
+        <button onclick="frectangulovertical()">Rectangulo<br>Vertical</button>
+        <button onclick="ffoto()">Foto</button>
+        <button onclick="arriba()">Arriba</button>
+        <button onclick="diagonal()">Diagonal</button>
+        <button onclick="bajar()">Bajar</button>
+        <button onclick="derecha()">Derecha</button>
+        <button onclick="izquierda()">Izquierda</button>
+<button onclick="reset()">Reset</button>
+
+
+    </div>
+
+    <div id="contfiguras">
+        <h2>Figuras</h2>
+    
+        <div id="figura">
+           </div>
+        </div>
+</div>
+
+<div id="contOperaciones()">
+    <h4>Capurar Datos</h4>
+    <input type="number" id="valor1">
+    <select name="#" id="operaciones">
+<option value="+">SUMA</option>
+<option value="-">RESTA</option>
+<option value="*">MULTIPLICACIÓN</option>
+<option value="/">DIVISIÓN</option>
+    </select>
+
+    <input type="number" id="valor2">
+    <button onclick="operaciones()">=</button>
+    <input type="number" id="Respuesta">
+
+</div> 
+
+    <script src="js/main.js"></script>
+</body>
+</html>
